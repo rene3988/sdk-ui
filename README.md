@@ -22,8 +22,7 @@ Properties
             <enum name="with_text" value="1" />
         </attr>
     </declare-styleable>
-
-
+    
 -- Buttons ---
 Properties 
      <declare-styleable name="ButtonView">
