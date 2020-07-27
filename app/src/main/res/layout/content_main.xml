@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+      >
+
+        <com.mobile.ui.sdk.views.AvatarView
+            android:id="@+id/avatarViewSmallOnlyImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:avatar_title="Rene Cabañas"
+            app:avatar_subtitle="Developer Mobile"
+            app:avatar_size="small"
+            app:avatar_position="vertical"
+            app:avatar_state="with_text"/>
+
+
+        <com.mobile.ui.sdk.views.ButtonView
+            android:id="@+id/buttonPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:button_title="Siguiente"
+            app:button_size="small"
+            app:button_type="secondary"
+            app:button_state="unselect"
+            app:button_specification="only_border"
+            android:layout_below="@+id/avatarViewSmallOnlyImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <com.mobile.ui.sdk.views.CardCustomView
+            android:id="@+id/cardCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:card_type="square_icon_left"
+            android:layout_below="@+id/buttonPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,3 @@
+include ':sdk-ui'
+include ':app'
+rootProject.name = "DesignSystem"

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B11F24</color>
+    <color name="colorPrimaryDark">#45130F</color>
+    <color name="colorAccent">#D1C4C3</color>
+
+    <!-- Primary Colors -->
+    <color name="castle">#B11F24</color>
+    <color name="agle">#45130F</color>
+    <color name="budweiser">#D1C4C3</color>
+
+    <!-- Secondary Colors -->
+    <color name="corona">#F49C00</color>
+    <color name="jupiler">#C43300</color>
+    <color name="leffe">#DB580B</color>
+    <color name="victoria">#892000</color>
+
+    <!-- CTA Colors -->
+    <color name="stella">#60BF83</color>
+    <color name="brahma">#FF2E0E</color>
+
+    <!-- Gray Colors -->
+    <color name="quilmes">#555555</color>
+    <color name="ultra">#989898</color>
+    <color name="budlight">#DFDFDF</color>
+    <color name="hoegaarden">#FFFFFF</color>
+
+    <!-- Color simples -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+
+</resources>
